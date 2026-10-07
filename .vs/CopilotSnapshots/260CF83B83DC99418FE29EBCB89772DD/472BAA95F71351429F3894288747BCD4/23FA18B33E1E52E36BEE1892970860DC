@@ -1,0 +1,68 @@
+﻿using CRUD_BlazorApp.Common;
+using CRUD_BlazorApp.IDataService;
+using CRUD_BlazorApp.RepositoryServices;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using MudBlazor.Services;
+using CRUD_BlazorApp.Common;
+
+namespace CRUD_BlazorApp
+{
+	public static class ServiceCollectionExtension
+	{
+		
+    public static IServiceCollection AddApplicationServices(
+		this IServiceCollection services,
+		IConfiguration configuration)
+		{
+			// MudBlazor
+			services.AddMudServices();
+
+			// Database
+			services.AddDbContext<ApplicationDbContext>(options =>
+				options.UseSqlServer(
+					configuration.GetConnectionString("DefaultConnection")));
+
+			// Session
+			services.AddScoped<UserSession>();
+
+			// Authentication
+			services.AddScoped<IAuthenticationService,
+				AuthenticationService>();
+
+			services.AddScoped<AuthenticationStateProvider,
+				CustomAuthenticationStateProvider>();
+
+			services.AddScoped<
+				CustomAuthenticationStateProvider>();
+
+			// Login
+			services.AddScoped<ILoginService, LoginService>();
+
+			// Authorization
+			services.AddScoped<IRoleService, RoleService>();
+			services.AddScoped<IPermissionService, PermissionService>();
+
+			// Audit
+			services.AddScoped<IAuditService, AuditService>();
+
+			// ASP.NET Core Authentication
+			services.AddAuthentication(
+				CookieAuthenticationDefaults.AuthenticationScheme)
+				.AddCookie(options =>
+				{
+					options.LoginPath = "/auth/login";
+					options.AccessDeniedPath = "/access-denied";
+				});
+
+			// Authorization
+			services.AddAuthorization();
+
+			return services;
+		}
+	}
+}

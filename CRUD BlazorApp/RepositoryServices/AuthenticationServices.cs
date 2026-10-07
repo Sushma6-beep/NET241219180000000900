@@ -1,0 +1,68 @@
+﻿using CRUD_BlazorApp.Common;
+using CRUD_BlazorApp.IDataService;
+using CRUD_BlazorApp.RepositoryServices;
+
+namespace CRUD_BlazorApp.RepositoryServices
+{
+	public class AuthenticationServices : IAuthenticationServices
+	{
+		private readonly IRoleService roleService;
+		private readonly IPermissionService permissionService;
+		private readonly UserSession userSession;
+
+		public AuthenticationServices(
+			IRoleService roleService,
+			IPermissionService permissionService,
+			UserSession userSession)
+		{
+			this.roleService = roleService;
+			this.permissionService = permissionService;
+			this.userSession = userSession;
+		}
+
+		public async Task<bool> CreateSessionAsync(
+			int userId,
+			string userName,
+			string authenticationType)
+		{
+			var roles =
+				await roleService.GetActiveRolesAsync(userId);
+
+			// No active role = no application session
+			if (roles.Count == 0)
+			{
+				return false;
+			}
+
+			var permissions =
+				await permissionService
+					.GetActivePermissionsAsync(userId);
+
+			userSession.UserId = userId;
+			userSession.UserName = userName;
+			userSession.AuthenticationType =
+				authenticationType;
+
+			userSession.Roles = roles;
+			userSession.Permissions = permissions;
+
+			userSession.LoginTime =
+				DateTime.UtcNow;
+
+			return true;
+		}
+
+		public Task LogoutAsync()
+		{
+			userSession.UserId = 0;
+			userSession.UserName = string.Empty;
+			userSession.AuthenticationType =
+				string.Empty;
+
+			userSession.Roles.Clear();
+			userSession.Permissions.Clear();
+
+			return Task.CompletedTask;
+		}
+	}
+}

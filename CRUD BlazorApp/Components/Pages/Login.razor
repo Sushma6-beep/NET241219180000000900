@@ -1,0 +1,132 @@
+﻿@page "/auth/login"
+@rendermode InteractiveServer
+
+@using MudBlazor
+@using CRUD_BlazorApp.Common
+@using CRUD_BlazorApp.IDataService
+
+@inject ILoginService LoginService
+@inject IAuthenticationServices AuthenticationService
+@inject NavigationManager Navigation
+
+
+
+
+<style>
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+
+    .error-alert {
+        padding: 8px 12px !important;
+        margin-top: 1px !important;
+        font-size: 0.875rem !important;
+    }
+
+        /* Reduce error icon size */
+        .error-alert .mud-alert-icon {
+            width: 24px !important;
+            height: 24px !important;
+            font-size: 24px !important;
+        }
+
+        .error-alert .mud-icon-root {
+            width: 24px !important;
+            height: 24px !important;
+            font-size: 24px !important;
+        }
+    
+</style>
+
+<div class="login-container">
+    <MudPaper Elevation="4" Class="pa-8" Style="width: 100%; max-width: 400px;">
+
+        <MudText Typo="Typo.h4" Class="mb-6" Align="Align.Center">
+            <strong>Login</strong>
+        </MudText>
+
+        <MudTextField @bind-Value="userName"
+                      Label="User Name"
+                      Variant="Variant.Outlined"
+                      Class="mb-4"
+                      FullWidth="true" />
+
+        <MudTextField @bind-Value="password"
+                      Label="Password"
+                      InputType="InputType.Password"
+                      Variant="Variant.Outlined"
+                      Class="mb-2"
+                      FullWidth="true" />
+
+        @if (!string.IsNullOrWhiteSpace(errorMessage))
+        {
+            <MudAlert Severity="Severity.Error" 
+                      Class="error-alert mb-4">
+                @errorMessage
+            </MudAlert>
+        }
+
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   Class="mt-4"
+                   FullWidth="true"
+                   Size="Size.Large"
+                   OnClick="HandleLogin">
+            Login
+        </MudButton>
+
+
+    </MudPaper>
+</div>
+
+@code {
+
+    private string userName = string.Empty;
+
+    private string password = string.Empty;
+
+    private string errorMessage = string.Empty;
+
+    private async Task HandleLogin()
+    {
+        errorMessage = string.Empty;
+
+        var user =
+            await LoginService.VerifyUserAsync(
+                userName,
+                password);
+
+        if (user == null)
+        {
+            errorMessage =
+                "Invalid username or password.";
+
+            return;
+        }
+
+        var sessionCreated =
+            await AuthenticationService
+                .CreateSessionAsync(
+                    user.Id,
+                    user.UserName,
+                    "Blazor");
+
+        if (!sessionCreated)
+        {
+            errorMessage =
+                "Access denied. No active role is assigned.";
+
+            await AuthenticationService
+                .LogoutAsync();
+
+            return;
+        }
+
+        Navigation.NavigateTo(
+            "/",
+            forceLoad: true);
+    }
+}

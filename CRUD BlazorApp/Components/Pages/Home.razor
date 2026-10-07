@@ -1,0 +1,22 @@
+﻿@page "/"
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthStateProvider
+
+@attribute [Authorize]
+<h3>Welcome @userName</h3>
+<p>Authentication: @authType</p>
+
+@code {
+    private string? userName;
+    private string? authType;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var state = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = state.User;
+        userName = user?.Identity?.Name;
+        authType = user?.Identity?.AuthenticationType;
+    }
+}

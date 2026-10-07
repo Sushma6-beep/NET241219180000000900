@@ -1,0 +1,102 @@
+﻿@page "/auth/login"
+@rendermode InteractiveServer
+
+@using MudBlazor
+@using CRUD_BlazorApp.Common
+@using CRUD_BlazorApp.IDataService
+
+@inject ILoginService LoginService
+@inject IAuthenticationService AuthenticationService
+@inject NavigationManager Navigation
+
+<MudContainer MaxWidth="MaxWidth.Small"
+              Class="mt-10">
+
+    <MudPaper Elevation="4"
+              Class="pa-6">
+
+        <MudText Typo="Typo.h5">
+            Login
+        </MudText>
+
+        <MudTextField @bind-Value="userName"
+                      Label="User Name"
+                      Variant="Variant.Outlined"
+                      Class="mt-4" />
+
+        <MudTextField @bind-Value="password"
+                      Label="Password"
+                      InputType="InputType.Password"
+                      Variant="Variant.Outlined"
+                      Class="mt-4" />
+
+        @if (!string.IsNullOrWhiteSpace(errorMessage))
+        {
+            <MudAlert Severity="Severity.Error"
+                      Class="mt-4">
+                @errorMessage
+            </MudAlert>
+        }
+
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   Class="mt-4"
+                   FullWidth="true"
+                   OnClick="HandleLogin">
+
+            Login
+
+        </MudButton>
+
+    </MudPaper>
+
+</MudContainer>
+
+@code {
+
+    private string userName = string.Empty;
+
+    private string password = string.Empty;
+
+    private string errorMessage = string.Empty;
+
+    private async Task HandleLogin()
+    {
+        errorMessage = string.Empty;
+
+        var user =
+            await LoginService.VerifyUserAsync(
+                userName,
+                password);
+
+        if (user == null)
+        {
+            errorMessage =
+                "Invalid username or password.";
+
+            return;
+        }
+
+        var sessionCreated =
+            await AuthenticationService
+                .CreateSessionAsync(
+                    user.Id,
+                    user.UserName,
+                    Constant.Emergency);
+
+        if (!sessionCreated)
+        {
+            errorMessage =
+                "Access denied. No active role is assigned.";
+
+            await AuthenticationService
+                .LogoutAsync();
+
+            return;
+        }
+
+        Navigation.NavigateTo(
+            "/",
+            forceLoad: true);
+    }
+}

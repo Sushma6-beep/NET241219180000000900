@@ -1,0 +1,730 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\CRUD BlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\common\\localization\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\common\\localization\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\repositoryservices\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\repositoryservices\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\idataservice\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\idataservice\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\repositoryservices\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\repositoryservices\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\repositoryservices\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\repositoryservices\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\repositoryservices\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\repositoryservices\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\externalmethods\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\externalmethods\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\repositoryservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\repositoryservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\components\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\components\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\components\\pages\\checkpermission.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\components\\pages\\checkpermission.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\repositoryservices\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\repositoryservices\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\idataservice\\iauthenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\idataservice\\iauthenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\common\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\common\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\dtos\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\dtos\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\models\\userrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\models\\userrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Migrations\\20260929141649_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRUD BlazorApp\\Migrations\\20260929141649_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\dtos\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\dtos\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\common\\permissionconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\common\\permissionconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\common\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\common\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\models\\auditmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\models\\auditmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\idataservice\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\idataservice\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\idataservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\idataservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\idataservice\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\idataservice\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\externalmethods\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\externalmethods\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\models\\permissionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\models\\permissionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|e:\\projects\\crud blazorapp\\crud blazorapp\\models\\rolepermissionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000A9840-76E5-7FD7-DE53-B99C6F8C75EC}|CRUD BlazorApp\\CRUD BlazorApp.csproj|solutionrelative:crud blazorapp\\models\\rolepermissionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Models\\UserModel.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\UserModel.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T13:56:30.898Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserRoleModel.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\UserRoleModel.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Models\\UserRoleModel.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\UserRoleModel.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Models\\UserRoleModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T14:01:18.356Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RolePermissionModel.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\RolePermissionModel.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Models\\RolePermissionModel.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\RolePermissionModel.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Models\\RolePermissionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T14:03:23.696Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PermissionModel.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\PermissionModel.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Models\\PermissionModel.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\PermissionModel.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Models\\PermissionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T14:02:27.814Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Constant.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Common\\Constant.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Common\\Constant.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Common\\Constant.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Common\\Constant.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T12:23:01.665Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Common\\Localization\\Messages.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Common\\Localization\\Messages.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Common\\Localization\\Messages.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Common\\Localization\\Messages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:05:00.88Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\RoleService.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\RepositoryServices\\RoleService.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\RoleService.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\RepositoryServices\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:36:29.355Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\ExternalMethods\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\ExternalMethods\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\ExternalMethods\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\ExternalMethods\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T12:41:53.69Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Common\\UserSession.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Common\\UserSession.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Common\\UserSession.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Common\\UserSession.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T12:21:22.988Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwD4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T14:14:29.58Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\ExternalMethods\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\ExternalMethods\\ServiceCollectionExtension.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\ExternalMethods\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\ExternalMethods\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwDYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T14:04:52.942Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Program.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Program.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T16:33:02.723Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IPermissionService.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\IPermissionService.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\IDataService\\IPermissionService.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\IPermissionService.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\IDataService\\IPermissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:51:10.664Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\LoginService.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\RepositoryServices\\LoginService.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\LoginService.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\RepositoryServices\\LoginService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:47:29.919Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\ILoginService.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\IDataService\\ILoginService.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\ILoginService.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\IDataService\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:46:27.479Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\IRoleService.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\IDataService\\IRoleService.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\IRoleService.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\IDataService\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:33:41.652Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\PermissionService.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\RepositoryServices\\PermissionService.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\PermissionService.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\RepositoryServices\\PermissionService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:52:05.725Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\RoleModel.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Models\\RoleModel.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\RoleModel.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Models\\RoleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T13:59:57.223Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\DTOs\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\DTOs\\UpdateUserRequest.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\DTOs\\UpdateUserRequest.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\DTOs\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:45:49.496Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAkwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:40:42.212Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\DTOs\\UserResponse.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\DTOs\\UserResponse.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\DTOs\\UserResponse.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\DTOs\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:45:53.806Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuditModel.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\AuditModel.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Models\\AuditModel.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Models\\AuditModel.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Models\\AuditModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:06:21.075Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CheckPermission.razor",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\CheckPermission.razor",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Components\\Pages\\CheckPermission.razor",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\CheckPermission.razor",
+              "RelativeToolTip": "CRUD BlazorApp\\Components\\Pages\\CheckPermission.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T07:41:04.147Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\DTOs\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\DTOs\\CreateUserRequest.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\DTOs\\CreateUserRequest.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\DTOs\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:45:44.775Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\RepositoryServices\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\RepositoryServices\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:34:16.463Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PermissionConstants.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Common\\PermissionConstants.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Common\\PermissionConstants.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Common\\PermissionConstants.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Common\\PermissionConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:26:06.79Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.razor",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Components\\Pages\\Login.razor",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "CRUD BlazorApp\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAiwHAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T07:36:17.38Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\AuditService.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\RepositoryServices\\AuditService.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\AuditService.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\RepositoryServices\\AuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:10:53.318Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthenticationServices.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\AuthenticationServices.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\RepositoryServices\\AuthenticationServices.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\RepositoryServices\\AuthenticationServices.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\RepositoryServices\\AuthenticationServices.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwBwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T15:24:18.597Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuthenticationServices.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\IAuthenticationServices.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\IDataService\\IAuthenticationServices.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\IAuthenticationServices.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\IDataService\\IAuthenticationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T15:22:36.072Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Components\\Pages\\Weather.razor",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "CRUD BlazorApp\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwEAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-02T10:41:03.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.razor",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Components\\Pages\\Error.razor",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "CRUD BlazorApp\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-02T10:40:46.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Accessdenied.razor",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Accessdenied.razor",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Components\\Pages\\Accessdenied.razor",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Accessdenied.razor",
+              "RelativeToolTip": "CRUD BlazorApp\\Components\\Pages\\Accessdenied.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T16:06:20.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.razor",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "CRUD BlazorApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T15:58:23.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "CRUD BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T14:33:32.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T14:27:13.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260929141649_InitialCreate.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Migrations\\20260929141649_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\Migrations\\20260929141649_InitialCreate.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\Migrations\\20260929141649_InitialCreate.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\Migrations\\20260929141649_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T14:16:49.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\appsettings.json",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\appsettings.json",
+              "RelativeToolTip": "CRUD BlazorApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-29T14:10:27.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\SeedData.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\SeedData.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\SeedData.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T14:01:54.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\IAuditService.cs",
+              "RelativeDocumentMoniker": "CRUD BlazorApp\\IDataService\\IAuditService.cs",
+              "ToolTip": "E:\\Projects\\CRUD BlazorApp\\CRUD BlazorApp\\IDataService\\IAuditService.cs",
+              "RelativeToolTip": "CRUD BlazorApp\\IDataService\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:09:50.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

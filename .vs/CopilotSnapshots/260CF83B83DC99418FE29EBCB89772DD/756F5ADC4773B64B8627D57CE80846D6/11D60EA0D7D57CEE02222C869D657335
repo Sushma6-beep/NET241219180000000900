@@ -1,0 +1,122 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using CRUD_BlazorApp.Common;
+using CRUD_BlazorApp.IDataService;
+using CRUD_BlazorApp.DTOs;
+
+namespace CRUD_BlazorApp.Controllers
+{
+	[ApiController]
+	[Route("api/users")]
+	public class UsersController : ControllerBase
+	{
+		private readonly ILoginService loginService;
+		private readonly IRoleService roleService;
+		private readonly IPermissionService permissionService;
+		private readonly ILogger<UsersController> logger;
+
+		public UsersController(
+			ILoginService loginService,
+			IRoleService roleService,
+			IPermissionService permissionService,
+			ILogger<UsersController> logger)
+		{
+			this.loginService = loginService;
+			this.roleService = roleService;
+			this.permissionService = permissionService;
+			this.logger = logger;
+		}
+
+		[HttpGet]
+		[Authorize(Policy = PermissionConstants.UserView)]
+		public async Task<IActionResult> GetUsers()
+		{
+			try
+			{
+				// Get users implementation
+				return Ok(new { message = "Get users" });
+			}
+			catch (Exception ex)
+			{
+				logger.LogError(ex, "Error getting users");
+				return StatusCode(500, new { error = "Internal server error" });
+			}
+		}
+
+		[HttpPost]
+		[Authorize(Policy = PermissionConstants.UserCreate)]
+		public async Task<IActionResult> CreateUser(
+			[FromBody] CreateUserRequest request)
+		{
+			try
+			{
+				if (!ModelState.IsValid)
+				{
+					return BadRequest(ModelState);
+				}
+
+				// Create user implementation
+				return CreatedAtAction(nameof(GetUsers), new { message = "User created" });
+			}
+			catch (Exception ex)
+			{
+				logger.LogError(ex, "Error creating user");
+				return StatusCode(500, new { error = "Internal server error" });
+			}
+		}
+
+		[HttpPut("{id}")]
+		[Authorize(Policy = PermissionConstants.UserEdit)]
+		public async Task<IActionResult> UpdateUser(
+			int id,
+			[FromBody] UpdateUserRequest request)
+		{
+			try
+			{
+				if (!ModelState.IsValid)
+				{
+					return BadRequest(ModelState);
+				}
+
+				// Update user implementation
+				return Ok(new { message = "User updated" });
+			}
+			catch (Exception ex)
+			{
+				logger.LogError(ex, "Error updating user {UserId}", id);
+				return StatusCode(500, new { error = "Internal server error" });
+			}
+		}
+
+		[HttpDelete("{id}")]
+		[Authorize(Policy = PermissionConstants.UserDelete)]
+		public async Task<IActionResult> DeleteUser(
+			int id)
+		{
+			try
+			{
+				// Delete user implementation
+				return Ok(new { message = "User deleted" });
+			}
+			catch (Exception ex)
+			{
+				logger.LogError(ex, "Error deleting user {UserId}", id);
+				return StatusCode(500, new { error = "Internal server error" });
+			}
+		}
+	}
+
+	// Request/Response DTOs
+	public class CreateUserRequest
+	{
+		public string UserName { get; set; } = string.Empty;
+		public string Password { get; set; } = string.Empty;
+		public string Email { get; set; } = string.Empty;
+	}
+
+	public class UpdateUserRequest
+	{
+		public string UserName { get; set; } = string.Empty;
+		public string Email { get; set; } = string.Empty;
+	}
+}

@@ -1,0 +1,81 @@
+﻿using CRUD_BlazorApp.IDataService;
+using CRUD_BlazorApp.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
+using CRUD_BlazorApp.Common;
+
+namespace CRUD_BlazorApp.RepositoryServices
+{
+	public class LoginService : ILoginService
+	{
+		private readonly ApplicationDbContext dbContext;
+		private readonly ILogger<LoginService> logger;
+		private readonly IPasswordHasher<UserModel> passwordHasher;
+		private readonly IAuditService auditService;
+
+
+		public LoginService(
+			ApplicationDbContext dbContext,
+			ILogger<LoginService> logger,
+			IPasswordHasher<UserModel> passwordHasher,
+			IAuditService auditService)   // added parameter
+		{
+			this.dbContext = dbContext;
+			this.logger = logger;
+			this.passwordHasher = passwordHasher;
+			this.auditService = auditService; // assign field
+		}
+
+		public async Task<UserModel?> VerifyUserAsync(
+			string userName,
+			string password)
+		{
+			try
+			{
+				var user = await dbContext.Users
+					.FirstOrDefaultAsync(x =>
+						x.UserName == userName &&
+						x.IsActive);
+
+				if (user == null)
+				{
+					await auditService.LogAsync(
+							 null,
+							userName,
+				   Common.Constant.Emergency,
+						 "Login",
+						 "Failed",
+						 "Invalid username or password");
+
+					// removed undefined 'errorMessage' and return null
+					return null;
+				}
+
+				var verificationResult = passwordHasher.VerifyHashedPassword(user, user.PasswordHash, password);
+				if (verificationResult != PasswordVerificationResult.Success)
+				{
+					return null;
+				}
+
+				await auditService.LogAsync(
+					user.Id,
+					user.UserName,
+					CommonConstants.Emergency,
+					"Login",
+					"Success");
+
+				return user;
+			}
+			catch (Exception ex)
+			{
+				logger.LogError(
+					ex,
+					"Error occurred while validating user {UserName}",
+					userName);
+
+				throw;
+			}
+		}
+	}
+}

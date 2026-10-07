@@ -1,0 +1,19 @@
+﻿@page "/home"
+@rendermode InteractiveServer
+
+@using CRUD_BlazorApp.Common
+@using MudBlazor
+
+@inject UserSession UserSession
+
+<MudText Typo="Typo.h4">
+    Welcome @UserSession.UserName
+</MudText>
+
+@if (UserSession.Permissions.Contains("User.Create"))
+{
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Primary">
+        Add User
+    </MudButton>
+}   
